@@ -1631,11 +1631,8 @@ u32 gLastPokemonLevelForMoneyCalc;
  */
 void set_starter_hidden_ability(struct Party *party UNUSED, struct PartyPokemon *pp)
 {
-    if (CheckScriptFlag(HIDDEN_ABILITIES_STARTERS_FLAG) == 1)
-    {
-        SET_MON_HIDDEN_ABILITY_BIT(pp)
-        SetBoxMonAbility((void *)&pp->box);
-    }
+    SET_MON_HIDDEN_ABILITY_BIT(pp)
+    SetBoxMonAbility((void *)&pp->box);
 }
 
 /**
