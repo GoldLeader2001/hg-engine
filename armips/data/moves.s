@@ -1422,7 +1422,7 @@ movedata MOVE_ROCK_THROW, "Rock Throw"
     pss SPLIT_PHYSICAL
     basepower 50
     type TYPE_ROCK
-    accuracy 90
+    accuracy 100
     pp 15
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -2332,7 +2332,7 @@ movedata MOVE_TRANSFORM, "Transform"
 movedata MOVE_BUBBLE, "Bubble"
     battleeffect MOVE_EFFECT_LOWER_SPEED_HIT
     pss SPLIT_SPECIAL
-    basepower 20
+    basepower 40
     type TYPE_WATER
     accuracy 100
     pp 30
@@ -2378,16 +2378,16 @@ movedata MOVE_SPORE, "Spore"
     movedescription MOVE_SPORE, "The user scatters\nbursts of spores\nthat induce sleep.\n\n"
 
 movedata MOVE_FLASH, "Flash"
-    battleeffect MOVE_EFFECT_ACC_DOWN
-    pss SPLIT_STATUS
-    basepower 0
-    type TYPE_NORMAL
+    battleeffect MOVE_EFFECT_FLINCH_HIT
+    pss SPLIT_SPECIAL
+    basepower 70
+    type TYPE_ELECTRIC
     accuracy 100
     pp 20
-    effectchance 0
+    effectchance 30
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT | FLAG_PROTECT
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0x0A
     contesttype CONTEST_BEAUTY
     terminatedata

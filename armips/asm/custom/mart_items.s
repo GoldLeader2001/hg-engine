@@ -26,7 +26,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_ULTRA_BALL
 .halfword THREE_BADGES
 
-.halfword ITEM_ELECTIRIZER
+.halfword ITEM_ABILITY_CAPSULE
 .halfword ZERO_BADGES
 
 .halfword ITEM_SUPER_POTION

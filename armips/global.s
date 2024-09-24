@@ -23,6 +23,7 @@
 .include "armips/data/starters.s" // data definitions for which species to use for the starter Pokemon
 
 .include "armips/asm/custom/mart_items.s" //custom mart items
+.include "armips/asm/custom/ev_cap.s" //custom EV caps
 
 .if REUSABLE_TMS == 1
 

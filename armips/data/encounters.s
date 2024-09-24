@@ -84,21 +84,21 @@ encounter SPECIES_MAGIKARP, 10, 10
 encounter SPECIES_MAGIKARP, 10, 10
 encounter SPECIES_MAGIKARP, 10, 10
 encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_MARILL, 10, 10
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_TENTACOOL, 20, 20
 encounter SPECIES_CHINCHOU, 20, 20
 encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+encounter SPECIES_MARILL, 20, 20
 
 // super rod encounters
 encounter SPECIES_CHINCHOU, 40, 40
 encounter SPECIES_SHELLDER, 40, 40
 encounter SPECIES_TENTACRUEL, 40, 40
 encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
+encounter SPECIES_AZUMARILL, 40, 40
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -123,46 +123,46 @@ superrodrate 0
 walklevels 2, 3, 2, 3, 3, 3, 2, 2, 4, 4, 4, 4
 
 // morning encounter slots
-pokemon SPECIES_ELECTABUZZ
-pokemon SPECIES_SENTRET
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_SENTRET
+monwithform SPECIES_GROWLITHE, 1
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_PIDGEY
-pokemon SPECIES_SENTRET
 pokemon SPECIES_SENTRET
 pokemon SPECIES_RATTATA
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_PIDGEY
+monwithform SPECIES_RATTATA, 1
+pokemon SPECIES_SEEDOT
+pokemon SPECIES_LOTAD
+pokemon SPECIES_HOOTHOOT
+pokemon SPECIES_WATTREL
+pokemon SPECIES_MEOWTH
+monwithform SPECIES_MEOWTH, 1
 
 // day encounter slots
-pokemon SPECIES_ELECTABUZZ
-pokemon SPECIES_ELECTABUZZ
-pokemon SPECIES_ELECTABUZZ
-pokemon SPECIES_ELECTABUZZ
-pokemon SPECIES_ELECTABUZZ
-pokemon SPECIES_ELECTABUZZ
-pokemon SPECIES_ELECTABUZZ
-pokemon SPECIES_ELECTABUZZ
-pokemon SPECIES_ELECTABUZZ
-pokemon SPECIES_ELECTABUZZ
-pokemon SPECIES_ELECTABUZZ
-pokemon SPECIES_ELECTABUZZ
+monwithform SPECIES_GROWLITHE, 1
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_SENTRET
+pokemon SPECIES_RATTATA
+monwithform SPECIES_RATTATA, 1
+pokemon SPECIES_SEEDOT
+pokemon SPECIES_LOTAD
+pokemon SPECIES_HOOTHOOT
+pokemon SPECIES_WATTREL
+pokemon SPECIES_MEOWTH
+monwithform SPECIES_MEOWTH, 1
 
 // night encounter slots
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
+monwithform SPECIES_GROWLITHE, 1
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_SENTRET
 pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+monwithform SPECIES_RATTATA, 1
+pokemon SPECIES_SEEDOT
+pokemon SPECIES_LOTAD
 pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
+pokemon SPECIES_WATTREL
+pokemon SPECIES_MEOWTH
+monwithform SPECIES_MEOWTH, 1
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -291,22 +291,22 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_MAGIKARP, 10, 10
 encounter SPECIES_MAGIKARP, 10, 10
 encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+encounter SPECIES_BASCULIN, 10, 10
+encounterwithform SPECIES_BASCULIN, 2, 10, 10
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+encounter SPECIES_BASCULIN, 20, 20
+encounter SPECIES_BASCULIN, 20, 20
 encounter SPECIES_CORSOLA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+encounterwithform SPECIES_BASCULIN, 2, 10, 10
 
 // super rod encounters
 encounter SPECIES_KRABBY, 40, 40
 encounter SPECIES_CORSOLA, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
+encounter SPECIES_BASCULEGION, 40, 40
+encounterwithform SPECIES_BASCULIN, 2, 10, 10
+encounterwithform SPECIES_CORSOLA, 1, 40, 40
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -331,46 +331,46 @@ superrodrate 75
 walklevels 2, 3, 2, 3, 4, 4, 4, 4, 4, 4, 4, 4
 
 // morning encounter slots
-pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIKIPEK
 pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
+pokemon SPECIES_SURSKIT
+pokemon SPECIES_DWEBBLE
+pokemon SPECIES_PARAS
+pokemon SPECIES_WEEDLE
 pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
+pokemon SPECIES_KAKUNA
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
+pokemon SPECIES_JOLTIK
+pokemon SPECIES_GRUBBIN
 
 // day encounter slots
-pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIKIPEK
 pokemon SPECIES_CATERPIE
+pokemon SPECIES_SURSKIT
+pokemon SPECIES_DWEBBLE
+pokemon SPECIES_PARAS
+pokemon SPECIES_WEEDLE
+pokemon SPECIES_METAPOD
+pokemon SPECIES_KAKUNA
 pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
 pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
+pokemon SPECIES_JOLTIK
+pokemon SPECIES_GRUBBIN
 
 // night encounter slots
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
+pokemon SPECIES_PIKIPEK
+pokemon SPECIES_CATERPIE
+pokemon SPECIES_SURSKIT
+pokemon SPECIES_DWEBBLE
+pokemon SPECIES_PARAS
+pokemon SPECIES_WEEDLE
+pokemon SPECIES_METAPOD
+pokemon SPECIES_KAKUNA
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_JOLTIK
+pokemon SPECIES_GRUBBIN
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -435,46 +435,46 @@ superrodrate 75
 walklevels 3, 4, 3, 4, 3, 3, 5, 5, 5, 5, 5, 5
 
 // morning encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
+pokemon SPECIES_STARLY
+pokemon SPECIES_ZIGZAGOON
+monwithform SPECIES_ZIGZAGOON, 1
+pokemon SPECIES_BUDEW
+pokemon SPECIES_ODDISH
 pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
+pokemon SPECIES_APPLIN
+pokemon SPECIES_SPINARAK
+pokemon SPECIES_SHROOMISH
+pokemon SPECIES_ABRA
+pokemon SPECIES_SNOVER
+monwithform SPECIES_SANDSHREW, 1
 
 // day encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
+pokemon SPECIES_STARLY
+pokemon SPECIES_ZIGZAGOON
+monwithform SPECIES_ZIGZAGOON, 1
+pokemon SPECIES_BUDEW
+pokemon SPECIES_ODDISH
 pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
+pokemon SPECIES_APPLIN
+pokemon SPECIES_SPINARAK
+pokemon SPECIES_SHROOMISH
+pokemon SPECIES_ABRA
+pokemon SPECIES_SNOVER
+monwithform SPECIES_SANDSHREW, 1
 
 // night encounter slots
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_RATTATA
+pokemon SPECIES_STARLY
+pokemon SPECIES_ZIGZAGOON
+monwithform SPECIES_ZIGZAGOON, 1
+pokemon SPECIES_BUDEW
+pokemon SPECIES_ODDISH
 pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
+pokemon SPECIES_APPLIN
+pokemon SPECIES_SPINARAK
+pokemon SPECIES_SHROOMISH
+pokemon SPECIES_ABRA
+pokemon SPECIES_SNOVER
+monwithform SPECIES_SANDSHREW, 1
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -498,23 +498,23 @@ encounter SPECIES_NONE, 0, 0
 // old rod encounters
 encounter SPECIES_MAGIKARP, 10, 10
 encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_PSYDUCK, 10, 10
+encounter SPECIES_CLAMPERL, 10, 10
+encounter SPECIES_CLAMPERL, 10, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_PSYDUCK, 10, 10
+encounter SPECIES_CLAMPERL, 10, 10
+encounter SPECIES_CLAMPERL, 10, 10
 
 // super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_GYARADOS, 10, 10
+encounter SPECIES_GOLDUCK, 10, 10
+encounter SPECIES_GOREBYSS, 10, 10
+encounter SPECIES_HUNTAIL, 10, 10
 
 // swarm grass
 pokemon SPECIES_PIDGEY
@@ -600,25 +600,25 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_QWILFISH, 10, 10
+encounter SPECIES_KRABBY, 10, 10
+encounterwithform SPECIES_QWILFISH, 1, 10, 10
+encounter SPECIES_CARVANHA, 10, 10
+encounter SPECIES_RELICANTH, 10, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_QWILFISH, 10, 10
+encounter SPECIES_KRABBY, 10, 10
+encounterwithform SPECIES_QWILFISH, 1, 10, 10
+encounter SPECIES_CARVANHA, 10, 10
+encounter SPECIES_RELICANTH, 10, 10
 
 // super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_QWILFISH, 10, 10
+encounter SPECIES_KRABBY, 10, 10
+encounter SPECIES_OVERQWIL, 10, 10
+encounter SPECIES_SHARPEDO, 10, 10
+encounter SPECIES_RELICANTH, 10, 10
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -644,45 +644,45 @@ walklevels 3, 4, 3, 4, 5, 5, 3, 3, 6, 5, 6, 5
 
 // morning encounter slots
 pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_GASTLY
+pokemon SPECIES_DUSKULL
+pokemon SPECIES_SHUPPET
+pokemon SPECIES_MISDREAVUS
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_SABLEYE
+pokemon SPECIES_LAMPENT
+pokemon SPECIES_CUBONE
+pokemon SPECIES_MANKEY
+pokemon SPECIES_SINISTEA
+pokemon SPECIES_ROTOM
 
 // day encounter slots
 pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_GASTLY
+pokemon SPECIES_DUSKULL
+pokemon SPECIES_SHUPPET
+pokemon SPECIES_MISDREAVUS
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_SABLEYE
+pokemon SPECIES_LAMPENT
+pokemon SPECIES_CUBONE
+pokemon SPECIES_Mankey
+pokemon SPECIES_SINISTEA
+pokemon SPECIES_ROTOM
 
 // night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
+pokemon SPECIES_DUSKULL
+pokemon SPECIES_SHUPPET
+pokemon SPECIES_MISDREAVUS
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_SABLEYE
+pokemon SPECIES_LAMPENT
+pokemon SPECIES_CUBONE
+pokemon SPECIES_Mankey
+pokemon SPECIES_SINISTEA
+pokemon SPECIES_ROTOM
 
 // hoenn encounter slots
 pokemon SPECIES_ZIGZAGOON
@@ -748,45 +748,45 @@ walklevels 3, 4, 3, 4, 5, 5, 3, 3, 6, 5, 6, 5
 
 // morning encounter slots
 pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_GASTLY
+pokemon SPECIES_DUSKULL
+pokemon SPECIES_SHUPPET
+pokemon SPECIES_MISDREAVUS
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_SABLEYE
+pokemon SPECIES_LAMPENT
+pokemon SPECIES_CUBONE
+pokemon SPECIES_Mankey
+pokemon SPECIES_SINISTEA
+pokemon SPECIES_ROTOM
 
 // day encounter slots
 pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_GASTLY
+pokemon SPECIES_DUSKULL
+pokemon SPECIES_SHUPPET
+pokemon SPECIES_MISDREAVUS
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_SABLEYE
+pokemon SPECIES_LAMPENT
+pokemon SPECIES_CUBONE
+pokemon SPECIES_Mankey
+pokemon SPECIES_SINISTEA
+pokemon SPECIES_ROTOM
 
 // night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
 pokemon SPECIES_RATTATA
 pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
+pokemon SPECIES_DUSKULL
+pokemon SPECIES_SHUPPET
+pokemon SPECIES_MISDREAVUS
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_SABLEYE
+pokemon SPECIES_LAMPENT
+pokemon SPECIES_CUBONE
+pokemon SPECIES_Mankey
+pokemon SPECIES_SINISTEA
+pokemon SPECIES_ROTOM
 
 // hoenn encounter slots
 pokemon SPECIES_ZIGZAGOON
@@ -865,18 +865,18 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_ZUBAT
 
 // day encounter slots
-pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_WOOPER
+pokemon SPECIES_RATTATA
+pokemon SPECIES_WOOPER
 pokemon SPECIES_RATTATA
 pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_RATTATA
+pokemon SPECIES_BELLSPROUT
 pokemon SPECIES_MAREEP
 pokemon SPECIES_MAREEP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_WOOPER
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_WOOPER
+pokemon SPECIES_ZUBAT
 
 // night encounter slots
 pokemon SPECIES_WOOPER
@@ -1012,8 +1012,8 @@ encounter SPECIES_QUAGSIRE, 10, 20
 encounter SPECIES_QUAGSIRE, 10, 20
 
 // rock smash encounters
-encounter SPECIES_GEODUDE, 8, 14
-encounter SPECIES_GEODUDE, 3, 6
+encounter SPECIES_TIRTOUGA, 8, 14
+encounter SPECIES_AMAURA, 3, 6
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 10, 10
@@ -7197,44 +7197,44 @@ walklevels 3, 2, 3, 2, 2, 2, 4, 4, 3, 4, 3, 4
 // morning encounter slots
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_DUNSPARCE
+monwithform SPECIES_GEODUDE, 1
+pokemon SPECIES_DIGLETT
+pokemon SPECIES_SANDSHREW
+pokemon SPECIES_NUMEL
+monwithform SPECIES_DIGLETT, 1
+monwithform SPECIES_MEOWTH, 2
+pokemon SPECIES_PHANPY
+pokemon SPECIES_SANDILE
+pokemon SPECIES_NOIBAT
+pokemon SPECIES_BERGMITE
 
 // day encounter slots
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_DUNSPARCE
+monwithform SPECIES_GEODUDE, 1
+pokemon SPECIES_DIGLETT
+pokemon SPECIES_SANDSHREW
+pokemon SPECIES_NUMEL
+monwithform SPECIES_DIGLETT, 1
+monwithform SPECIES_MEOWTH, 2
+pokemon SPECIES_PHANPY
+pokemon SPECIES_SANDILE
+pokemon SPECIES_NOIBAT
+pokemon SPECIES_BERGMITE
 
 // night encounter slots
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_DUNSPARCE
+monwithform SPECIES_GEODUDE, 1
+pokemon SPECIES_DIGLETT
+pokemon SPECIES_SANDSHREW
+pokemon SPECIES_NUMEL
+monwithform SPECIES_DIGLETT, 1
+monwithform SPECIES_MEOWTH, 2
+pokemon SPECIES_PHANPY
+pokemon SPECIES_SANDILE
+pokemon SPECIES_NOIBAT
+pokemon SPECIES_BERGMITE
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
