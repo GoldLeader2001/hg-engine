@@ -24,6 +24,7 @@
 
 .include "armips/asm/custom/mart_items.s" //custom mart items
 .include "armips/asm/custom/ev_cap.s" //custom EV caps
+.include "armips/asm/custom/encounter_rates.s" //custom EV caps
 
 .if REUSABLE_TMS == 1
 

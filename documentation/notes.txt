@@ -18,3 +18,15 @@ bank 237 is mon names.  238 appears unused?
 
 
 starter ID's can be found in overlay 61, starting from 0x1A98
+
+
+MY NOTES:
+
+* fix flash tm to be electric collored
+* Why is ruins of alph broken
+* Add mobile PC
+* refine encounters
+* refine encounter move sets
+* add content up to gym 3
+* Edit Mart items (i.e. add ability patch, reduce costs, switch up department store stock)
+* Figure out a proper time to bring in Megas

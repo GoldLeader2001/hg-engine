@@ -1,7 +1,7 @@
 .nds
 .thumb
 
-// Aurora Crystal specific change
+//thx Dray
 // Changes items obtainable in some Poké Marts
 
 .open "base/arm9.bin", 0x02000000

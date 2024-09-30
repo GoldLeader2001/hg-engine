@@ -4426,7 +4426,7 @@ mondata SPECIES_SNUBBULL, "Snubbull"
 
 mondata SPECIES_GRANBULL, "Granbull"
     basestats 90, 120, 75, 45, 60, 60
-    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
+    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, TYPE_FIGHTING
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -23735,7 +23735,7 @@ mondata SPECIES_MEOWTH_GALARIAN, "Meowth"
 
 mondata SPECIES_PONYTA_GALARIAN, "Ponyta"
     basestats 50, 85, 55, 90, 65, 65
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    types TYPE_FIRE, TYPE_FAIRY
     catchrate 190
     baseexp 82
     evyields 0, 0, 0, 1, 0, 0
@@ -23752,7 +23752,7 @@ mondata SPECIES_PONYTA_GALARIAN, "Ponyta"
 
 mondata SPECIES_RAPIDASH_GALARIAN, "Rapidash"
     basestats 65, 100, 70, 105, 80, 80
-    types TYPE_PSYCHIC, TYPE_FAIRY
+    types TYPE_FIRE, TYPE_FAIRY
     catchrate 60
     baseexp 175
     evyields 0, 0, 0, 2, 0, 0
