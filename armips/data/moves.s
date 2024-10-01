@@ -13087,7 +13087,7 @@ movedata MOVE_DUAL_WINGBEAT, "Dual Wingbeat"
     pss SPLIT_PHYSICAL
     basepower 40
     type TYPE_FLYING
-    accuracy 90
+    accuracy 100
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -13341,7 +13341,7 @@ movedata MOVE_POWER_SHIFT, "Power Shift"
 movedata MOVE_STONE_AXE, "Stone Axe"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 75
+    basepower 55
     type TYPE_ROCK
     accuracy 95
     pp 15
@@ -14205,7 +14205,7 @@ movedata MOVE_SNOWSCAPE, "Snowscape"
 movedata MOVE_POUNCE, "Pounce"
     battleeffect MOVE_EFFECT_LOWER_SPEED_HIT
     pss SPLIT_PHYSICAL
-    basepower 50
+    basepower 60
     type TYPE_BUG
     accuracy 100
     pp 20

@@ -6820,7 +6820,7 @@ mondata SPECIES_CAMERUPT, "Camerupt"
 
 mondata SPECIES_TORKOAL, "Torkoal"
     basestats 70, 85, 140, 20, 85, 70
-    types TYPE_FIRE, TYPE_FIRE
+    types TYPE_FIRE, TYPE_ROCK
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0

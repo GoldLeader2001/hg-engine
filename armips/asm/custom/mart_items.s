@@ -172,39 +172,39 @@ const u16 *_0210FA3C[] = {
 .org 0x020FBBB4
 /* This spills over into _020FBBC6 */
 /* Goldenrod Dept Store 3F & Celadon Dept Store 5F -> Chansey Supply 1 */ 
-.halfword ITEM_HP_UP
-.halfword ITEM_PROTEIN
-.halfword ITEM_IRON
-.halfword ITEM_CALCIUM
-.halfword ITEM_ZINC
-.halfword ITEM_CARBOS
-.halfword ITEM_POWER_WEIGHT
-.halfword ITEM_POWER_BRACER
-.halfword ITEM_POWER_BELT
+.halfword ITEM_THUNDER_STONE
+.halfword ITEM_WATER_STONE
+.halfword ITEM_FIRE_STONE
+.halfword ITEM_DAWN_STONE
+.halfword ITEM_SHINY_STONE
+.halfword ITEM_DUSK_STONE
+.halfword ITEM_MOON_STONE
+.halfword ITEM_LEAF_STONE
+.halfword ITEM_SUN_STONE
 
-.halfword ITEM_POWER_LENS
-.halfword ITEM_POWER_BAND
-.halfword ITEM_POWER_ANKLET
-.halfword ITEM_EXP_SHARE
-.halfword ITEM_MACHO_BRACE
-.halfword 0xFFFF
-.halfword 0xFFFF
-.halfword 0xFFFF
-.halfword 0xFFFF
+.halfword ITEM_KINGS_ROCK
+.halfword ITEM_LINKING_CORD
+.halfword ITEM_METAL_COAT
+.halfword ITEM_PROTECTOR
+.halfword ITEM_DRAGON_SCALE
+.halfword ITEM_ICE_STONE
+.halfword ITEM_OVAL_STONE
+.halfword ITEM_SWEET_APPLE
+.halfword ITEM_TART_APPLE
 
 /* const u16 _020FBBD8[] = {ITEM_GREAT_BALL, ITEM_SUPER_POTION, ITEM_HYPER_POTION, ITEM_ANTIDOTE, ITEM_PARLYZ_HEAL, ITEM_SUPER_REPEL, ITEM_REVIVE, ITEM_AIR_MAIL, 0xFFFF}; */
 
 .org 0x020FBBD8
 /* Mahogany Shop -> Goldenrod/Celadon Dept Store */
-.halfword ITEM_X_SPEED
-.halfword ITEM_X_ATTACK
-.halfword ITEM_X_DEFENSE
-.halfword ITEM_GUARD_SPEC
-.halfword ITEM_DIRE_HIT
-.halfword ITEM_X_ACCURACY
-.halfword ITEM_X_SPECIAL
-.halfword ITEM_X_SP_DEF
-.halfword 0xFFFF
+.halfword ITEM_BLACK_AUGURITE
+.halfword ITEM_ELECTIRIZER
+.halfword ITEM_UP_GRADE
+.halfword ITEM_RAZOR_FANG
+.halfword ITEM_RAZOR_CLAW
+.halfword ITEM_PEAT_BLOCK
+.halfword ITEM_DUBIOUS_DISC
+.halfword ITEM_PRISM_SCALE
+.halfword ITEM_REAPER_CLOTH
 
 /* const u16 _020FBBEA[] = {ITEM_POTION, ITEM_SUPER_POTION, ITEM_HYPER_POTION, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_ANTIDOTE, ITEM_PARLYZ_HEAL, ITEM_BURN_HEAL, ITEM_ICE_HEAL, ITEM_AWAKENING, ITEM_FULL_HEAL, 0xFFFF}; */
 /* const u16 _020FBC02[] = {ITEM_POTION, ITEM_SUPER_POTION, ITEM_HYPER_POTION, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_ANTIDOTE, ITEM_PARLYZ_HEAL, ITEM_BURN_HEAL, ITEM_ICE_HEAL, ITEM_AWAKENING, ITEM_FULL_HEAL, 0xFFFF}; */
@@ -213,7 +213,7 @@ const u16 *_0210FA3C[] = {
 /* This spills over into _020FBC02 */
 /* Goldenrod Dept Store 2F & Celadon Dept Store 2F -> Chansey Supply 2 */
 .halfword ITEM_PP_UP
-.halfword ITEM_ABILITY_CAPSULE
+.halfword ITEM_ABILITY_PATCH
 .halfword ITEM_LONELY_MINT
 .halfword ITEM_ADAMANT_MINT
 .halfword ITEM_NAUGHTY_MINT
@@ -244,16 +244,16 @@ const u16 *_0210FA3C[] = {
 
 .org 0x020FBC34
 /* Goldenrod Dept Store 5F -> Goldenrod Dept Store 5F still (also Celadon 3F) */
-.halfword ITEM_SUN_STONE
-.halfword ITEM_MOON_STONE
-.halfword ITEM_FIRE_STONE
-.halfword ITEM_THUNDER_STONE
-.halfword ITEM_WATER_STONE
-.halfword ITEM_LEAF_STONE
-.halfword ITEM_ICE_STONE
-.halfword ITEM_EVERSTONE
-.halfword 0xFFFF
-.halfword 0xFFFF
+.halfword ITEM_SACHET
+.halfword ITEM_WHIPPED_DREAM
+.halfword ITEM_CRACKED_POT
+.halfword ITEM_METAL_ALLOY
+.halfword ITEM_AUSPICIOUS_ARMOR
+.halfword ITEM_MALICIOUS_ARMOR
+.halfword ITEM_GALARICA_WREATH
+.halfword ITEM_CHIPPED_POT
+.halfword ITEM_DEEP_SEA_SCALE
+.halfword ITEM_DEEP_SEA_TOOTH
 .halfword 0xFFFF
 .halfword 0xFFFF
 .halfword 0xFFFF
