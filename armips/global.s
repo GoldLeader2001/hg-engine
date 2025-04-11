@@ -17,10 +17,13 @@
 .include "armips/asm/levelup.s" // change the level up moves to be (u16 level, u16 move) + expand learnset to LEARNSET_TOTAL_MOVES (from armips/include/config.s)
 .include "armips/asm/pokedex.s" // code for pokedex expansion, including expanding the save
 .include "armips/asm/overworlds.s" // code for overworlds, specifically repointing gOWTagToFileNum and making dimorphism a byte instead of a halfword.
-.include "armips/asm/y9.s" // add new overlay entries to the y9 table
 .include "armips/asm/swarms.s" // modify swarms
 
 .include "armips/data/starters.s" // data definitions for which species to use for the starter Pokemon
+
+.include "armips/asm/tm_palettes.s" // allows editing of pallete table for TMs
+.include "armips/asm/hidden_items.s" // allows editing of hidden items for Dowsing Machine
+
 
 .include "armips/asm/custom/mart_items.s" //custom mart items
 .include "armips/asm/custom/ev_cap.s" //custom EV caps
@@ -30,8 +33,6 @@
 
 .include "armips/asm/tm.s" // make tms infinite
 .include "armips/asm/forget_hm.s" // allows hm to be forgotten
-
-.endif
 
 .if FAIRY_TYPE_IMPLEMENTED == 1
 
