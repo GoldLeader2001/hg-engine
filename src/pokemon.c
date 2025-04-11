@@ -1497,6 +1497,7 @@ void LONG_CALL CreateBoxMonData(struct BoxPokemon *boxmon, int species, int leve
     SetBoxMonData(boxmon,MON_DATA_GAME_VERSION,(u8 *)&title);
     i=ITEM_POKE_BALL;
     SetBoxMonData(boxmon,MON_DATA_POKEBALL,(u8 *)&i);
+    pow = 31;
 
     if(pow <= MAX_IVS){
         SetBoxMonData(boxmon,MON_DATA_HP_IV,(u8 *)&pow);
@@ -1599,11 +1600,8 @@ u32 gLastPokemonLevelForMoneyCalc;
  */
 void set_starter_hidden_ability(struct Party *party UNUSED, struct PartyPokemon *pp)
 {
-    if (CheckScriptFlag(HIDDEN_ABILITIES_STARTERS_FLAG) == 1)
-    {
-        SET_MON_HIDDEN_ABILITY_BIT(pp)
-        SetBoxMonAbility((void *)&pp->box);
-    }
+    SET_MON_HIDDEN_ABILITY_BIT(pp)
+    SetBoxMonAbility((void *)&pp->box);
 }
 
 /**
