@@ -27,6 +27,16 @@ MY NOTES:
 * Add mobile PC
 * refine encounters
 * refine encounter move sets
-* add content up to gym 3
+* add content up to gym 4
 * Edit Mart items (i.e. add ability patch, reduce costs, switch up department store stock)
 * Figure out a proper time to bring in Megas
+
+37
+38
+39
+Ecruteak fishing
+42
+Mt. mortar
+43
+lake of rage fishing
+Olivine

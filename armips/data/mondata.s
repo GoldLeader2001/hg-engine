@@ -7785,7 +7785,7 @@ mondata SPECIES_RELICANTH, "Relicanth"
 
 
 mondata SPECIES_LUVDISC, "Luvdisc"
-    basestats 43, 30, 55, 97, 40, 65
+    basestats 50, 30, 75, 125, 95, 75
     types TYPE_WATER, TYPE_FAIRY
     catchrate 225
     baseexp 0 // defined in baseexp.s
@@ -9025,7 +9025,7 @@ mondata SPECIES_LOPUNNY, "Lopunny"
 
 mondata SPECIES_MISMAGIUS, "Mismagius"
     basestats 60, 60, 60, 105, 105, 105
-    types TYPE_GHOST, TYPE_GHOST
+    types TYPE_GHOST, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 1

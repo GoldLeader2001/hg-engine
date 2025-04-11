@@ -936,7 +936,7 @@ evodata SPECIES_GOLEM
     terminateevodata
 
 evodata SPECIES_PONYTA
-    evolution EVO_LEVEL, 40, SPECIES_RAPIDASH
+    evolution EVO_LEVEL, 35, SPECIES_RAPIDASH
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -8104,7 +8104,7 @@ evodata SPECIES_GOLURK
     terminateevodata
 
 evodata SPECIES_PAWNIARD
-    evolution EVO_LEVEL, 52, SPECIES_BISHARP
+    evolution EVO_LEVEL, 44, SPECIES_BISHARP
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -11238,7 +11238,7 @@ evodata SPECIES_DURALUDON
 terminateevodata
 
 evodata SPECIES_DREEPY
-    evolution EVO_LEVEL, 50, SPECIES_DRAKLOAK
+    evolution EVO_LEVEL, 45, SPECIES_DRAKLOAK
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -11250,7 +11250,7 @@ evodata SPECIES_DREEPY
 terminateevodata
 
 evodata SPECIES_DRAKLOAK
-    evolution EVO_LEVEL, 60, SPECIES_DRAGAPULT
+    evolution EVO_LEVEL, 55, SPECIES_DRAGAPULT
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13761,7 +13761,7 @@ evodata SPECIES_MEOWTH_GALARIAN
 terminateevodata
 
 evodata SPECIES_PONYTA_GALARIAN
-    evolutionwithform EVO_LEVEL, 40, SPECIES_RAPIDASH, 1
+    evolutionwithform EVO_LEVEL, 35, SPECIES_RAPIDASH, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
